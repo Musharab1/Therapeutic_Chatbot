@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 (If you don't have a requirements.txt file, you can generate one after installing the necessary packages: google-generativeai, duckduckgo-search, and streamlit.)
 
-##Configuration
+## Configuration
 
 - Create a file named .env in your project's root directory.
 
