@@ -1,50 +1,49 @@
-# Therapeutic Chatbot
+# 🧠 Therapeutic Chatbot  
 
-This project is an empathetic and supportive therapeutic chatbot. It leverages a powerful Retrieval-Augmented Generation (RAG) pipeline, combining the conversational abilities of the Gemini API with real-time web search results from DuckDuckGo. The chatbot's core purpose is to validate emotions and offer thoughtful, up-to-date advice, acting as a supportive personal assistant for managing stress and anxiety.
+An **empathetic GenAI-powered chatbot** designed to provide **emotional support** and help users manage stress and anxiety.  
+It leverages a **Retrieval-Augmented Generation (RAG) pipeline**, combining the conversational abilities of the **Google Gemini API** with **real-time DuckDuckGo search results**, making responses both **empathetic** and **up-to-date**.  
 
-## Key Features
+---
 
-**Empathetic Persona**: Engineered to act as a psychological assistant, providing kind and caring responses.
+## ✨ Key Features  
 
-**Real-Time Information**: Utilizes DuckDuckGo Search to fetch current data, ensuring its advice is relevant and grounded.
+- 💙 **Empathetic Persona** – Acts as a supportive psychological assistant, offering kind and caring responses.  
+- 🔍 **Real-Time Information** – Fetches fresh, relevant knowledge via DuckDuckGo Search.  
+- 🤖 **Gemini API Integration** – Powered by **Gemini 1.5 Flash** for advanced reasoning and high-quality conversational output.  
+- 🛠️ **Modular Architecture** – Backend logic separated from frontend for clean, scalable code.  
+- 🎨 **Streamlit Frontend** – Simple and user-friendly web interface for smooth interaction.  
 
-**Gemini API Integration**: Built on the powerful Gemini 1.5 Flash model for advanced reasoning and high-quality conversational output.
+---
 
-**Modular Architecture**: Separates the backend logic (backend.py) from the frontend interface (app.py) for clean, organized code.
+## ⚙️ How It Works  
 
-**Streamlit Frontend**: A simple and user-friendly web interface for smooth interaction.
- 
-## How It Works
+1. **Retrieve** – Searches real-time data from DuckDuckGo.  
+2. **Augment** – Combines retrieved data with the user’s query.  
+3. **Generate** – Gemini model produces a precise, empathetic, and context-aware response.  
 
-The chatbot uses a RAG pipeline to provide informed responses:
+---
 
-- Retrieve: When a user asks a question, the system searches relevant, real-time information from DuckDuckGo.
+## 🚀 Getting Started  
 
-- Augment: The retrieved text is combined with the user's original query.
+### ✅ Prerequisites  
+- Python **3.8+**  
+- A **Google Gemini API key** (available from [Google AI Studio](https://ai.google.dev) or Google Cloud Console).  
 
-- Generate: The Gemini model uses this combined input to produce a precise, empathetic, and context-aware answer.
+---
 
-## Getting Started
+### 🔧 Installation  
 
-Follow these steps to set up and run the project on your local machine.
+Clone the repository:  
+```bash
+git clone https://github.com/your-username/therapeutic-chatbot.git
+cd therapeutic-chatbot
+```
 
-## Prerequisites
-  
-Python 3.8 or higher
-
-A Gemini API Key. You can obtain one from the Google AI Studio or the Google Cloud Console.
-
-## Installation
-  
-Clone this repository to your local machine:
-
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-cd your-repository-name
 
 ## Install the required Python packages:
-
+```bash
 pip install -r requirements.txt
-
+```
 (If you don't have a requirements.txt file, you can generate one after installing the necessary packages: google-generativeai, duckduckgo-search, and streamlit.)
 
 ## Configuration
@@ -52,28 +51,30 @@ pip install -r requirements.txt
 - Create a file named .env in your project's root directory.
 
 - Add your Gemini API key to this file in the following format:
-
-- GOOGLE_API_KEY="your_api_key_here"
-
+```bash
+GOOGLE_API_KEY="your_api_key_here"
+```
 - Replace "your_api_key_here" with your actual API key.
 
 ## Running the Application
 Run the Streamlit application from your terminal:
-
+```bash
 streamlit run app.py
-
+```
 The application will open in your web browser, and you can begin interacting with the chatbot.
 
 ## File Structure
-app.py: The Streamlit frontend code, handling the user interface and displaying responses.
 
-backend.py: The core logic, including the RAG pipeline, API calls, and data retrieval.
+- app.py: The Streamlit frontend code, handling the user interface and displaying responses.
 
-.env: A hidden file for securely storing your API key.
+- backend.py: The core logic, including the RAG pipeline, API calls, and data retrieval.
 
-requirements.txt: (Optional) Lists all the required Python libraries.
+- .env: A hidden file for securely storing your API key.
+
+- requirements.txt: (Optional) Lists all the required Python libraries.
 
 ## Technologies Used
+
 - Python: The core programming language.
 
 - Google Gemini API: For generating empathetic and context-aware responses.
