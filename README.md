@@ -28,18 +28,20 @@ The chatbot uses a RAG pipeline to provide informed responses:
 
 Follow these steps to set up and run the project on your local machine.
 
-- Prerequisites
+## Prerequisites
+  
 Python 3.8 or higher
 
 A Gemini API Key. You can obtain one from the Google AI Studio or the Google Cloud Console.
 
-- Installation
+## Installation
+  
 Clone this repository to your local machine:
 
 git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
 cd your-repository-name
 
-- Install the required Python packages:
+## Install the required Python packages:
 
 pip install -r requirements.txt
 
