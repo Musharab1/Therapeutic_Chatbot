@@ -24,7 +24,7 @@ The chatbot uses a RAG pipeline to provide informed responses:
 
 - Generate: The Gemini model uses this combined input to produce a precise, empathetic, and context-aware answer.
 
-##Getting Started
+## Getting Started
 
 Follow these steps to set up and run the project on your local machine.
 
@@ -55,14 +55,14 @@ pip install -r requirements.txt
 
 - Replace "your_api_key_here" with your actual API key.
 
-##Running the Application
+## Running the Application
 Run the Streamlit application from your terminal:
 
 streamlit run app.py
 
 The application will open in your web browser, and you can begin interacting with the chatbot.
 
-##File Structure
+## File Structure
 app.py: The Streamlit frontend code, handling the user interface and displaying responses.
 
 backend.py: The core logic, including the RAG pipeline, API calls, and data retrieval.
@@ -71,7 +71,7 @@ backend.py: The core logic, including the RAG pipeline, API calls, and data retr
 
 requirements.txt: (Optional) Lists all the required Python libraries.
 
-##Technologies Used
+## Technologies Used
 - Python: The core programming language.
 
 - Google Gemini API: For generating empathetic and context-aware responses.
@@ -84,5 +84,5 @@ requirements.txt: (Optional) Lists all the required Python libraries.
 
 - functools.lru_cache: For caching search results to improve performance.
 
-##License
+## License
 This project is open-source.
