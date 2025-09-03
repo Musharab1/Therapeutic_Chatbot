@@ -1,5 +1,4 @@
-Therapeutic Chatbot: 
-
+Therapeutic Chatbot
 This project is an empathetic and supportive therapeutic chatbot. It leverages a powerful Retrieval-Augmented Generation (RAG) pipeline, combining the conversational abilities of the Gemini API with real-time web search results from DuckDuckGo. The chatbot's core purpose is to validate emotions and offer thoughtful, up-to-date advice, acting as a supportive personal assistant for managing stress and anxiety.
 
 Key Features
@@ -81,4 +80,4 @@ python-dotenv: For loading environment variables.
 functools.lru_cache: For caching search results to improve performance.
 
 License
-This project is open-source.
+This project is open-source
